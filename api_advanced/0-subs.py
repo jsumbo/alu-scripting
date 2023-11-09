@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""
+This module contains a function to get the number of subscribers of a subreddit.
+"""
 
 import requests
 
