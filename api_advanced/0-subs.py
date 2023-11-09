@@ -13,7 +13,7 @@ def get_number_of_subscribers(subreddit):
     if response.status_code == 200:
         subscribers = response.json().get('data').get('subscribers')
         if subscribers > 0:
-            return str(subscribers)  
+            return "OK"  
     return "0"  
 
 subreddit = "python"  
